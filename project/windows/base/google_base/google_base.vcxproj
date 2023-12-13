@@ -23,14 +23,14 @@
     <ProjectGuid>{EB38C219-A17C-45EC-B2D5-0186716DBEB0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>base</RootNamespace>
-    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <ProjectName>google_base</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141_xp</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -106,7 +106,7 @@
       <WarningLevel>Level1</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <SDLCheck>false</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_LIB;DEBUG;_HAS_NODISCARD;_HAS_EXCEPTIONS=0;COMPONENT_BUILD;__STD_C;_CRT_RAND_S;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_ATL_NO_OPENGL;_WINDOWS;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;PSAPI_VERSION=1;_SECURE_ATL;WIN32_LEAN_AND_MEAN;NOMINMAX;_UNICODE;UNICODE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;BASE_IMPLEMENTATION;DBGHELP_TRANSLATE_TCHAR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_LIB;DEBUG;_HAS_EXCEPTIONS=0;COMPONENT_BUILD;__STD_C;_CRT_RAND_S;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_ATL_NO_OPENGL;_WINDOWS;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;PSAPI_VERSION=1;_SECURE_ATL;WIN32_LEAN_AND_MEAN;NOMINMAX;_UNICODE;UNICODE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;BASE_IMPLEMENTATION;DBGHELP_TRANSLATE_TCHAR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)../../../../phoenix/;$(ProjectDir)../../../../phoenix/build/;$(ProjectDir)../../../../phoenix/base/;$(ProjectDir)../../../../phoenix/base/google_base/</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalOptions>/Zc:strictStrings- /Zc:inline /Zc:threadSafeInit- /utf-8 %(AdditionalOptions)</AdditionalOptions>

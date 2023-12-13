@@ -1,4 +1,4 @@
-/* Copyright (c) 2011, Google Inc.
+﻿/* Copyright (c) 2011, Google Inc.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -267,3 +267,4 @@ int RunningOnValgrind(void) {
 
 #endif /* DYNAMIC_ANNOTATIONS_PROVIDE_RUNNING_ON_VALGRIND == 1
     && DYNAMIC_ANNOTATIONS_EXTERNAL_IMPL == 0 */
+

@@ -6,6 +6,7 @@
 #include <atomic>
 #include <mutex>
 #include <memory>
+#include <functional>
 
 NIMLOG_BEGIN_DECLS
 

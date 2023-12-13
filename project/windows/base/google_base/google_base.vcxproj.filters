@@ -170,7 +170,6 @@
     <ClCompile Include="..\..\..\..\phoenix\base\google_base\base\sequence_checker_impl.cc" />
     <ClCompile Include="..\..\..\..\phoenix\base\google_base\base\sequenced_task_runner.cc" />
     <ClCompile Include="..\..\..\..\phoenix\base\google_base\base\supports_user_data.cc" />
-    <ClCompile Include="..\..\..\..\phoenix\base\google_base\base\sync_socket_win.cc" />
     <ClCompile Include="..\..\..\..\phoenix\base\google_base\base\sys_info.cc" />
     <ClCompile Include="..\..\..\..\phoenix\base\google_base\base\sys_info_win.cc" />
     <ClCompile Include="..\..\..\..\phoenix\base\google_base\base\task_runner.cc" />
@@ -877,7 +876,6 @@
     <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\single_thread_task_runner.h" />
     <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\stl_util.h" />
     <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\supports_user_data.h" />
-    <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\sync_socket.h" />
     <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\sys_byteorder.h" />
     <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\sys_info.h" />
     <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\task_runner.h" />
@@ -1108,9 +1106,6 @@
       <Filter>memory</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\memory\singleton.h">
-      <Filter>memory</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\memory\singleton_objc.h">
       <Filter>memory</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\phoenix\base\google_base\base\memory\weak_ptr.h">
@@ -1547,6 +1542,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include=".\base.isolate" />
+    <None Include="..\..\..\..\phoenix\base\google_base\base\base.isolate" />
   </ItemGroup>
 </Project>

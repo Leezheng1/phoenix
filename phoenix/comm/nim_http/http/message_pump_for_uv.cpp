@@ -181,7 +181,7 @@ void MessagePumpForUV::Run(Delegate* delegate) {
 		else {
 			NS_EXTENSION::TimeDelta delay = delayed_work_time_ - NS_EXTENSION::TimeTicks::Now();
 			if (delay > NS_EXTENSION::TimeDelta()) {
-				uv_timer_start(timer_, OnUVTimer, delay.ToInternalValue(), 0);
+				uv_timer_start(timer_, OnUVTimer, delay.InMilliseconds(), 0);
 				uv_run(loop_, UV_RUN_ONCE);
 				uv_timer_stop(timer_);
 			}
